@@ -1,13 +1,13 @@
-include <stdio.h>
+#include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 
 void printPtrBasics()
 {
-	double x; // declare a variable x of type ’double’
-	double *p_x; // declare a variable p_x of type ’pointer to a double’
-	p_x = &x; // in variable ’p_x’, store the memory address where the
-	// content of ’x’ is kept
+	double x; // declare a variable x of type â€™doubleâ€™
+	double *p_x; // declare a variable p_x of type â€™pointer to a doubleâ€™
+	p_x = &x; // in variable â€™p_xâ€™, store the memory address where the
+	// content of â€™xâ€™ is kept
 	*p_x = 10.; // at the location in memory that we stored in p_x
 	// write 10.0.
 	printf("x = %e\n", x); //*p_x = x = 10.0
